@@ -8,18 +8,38 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
+       <span style="font-family: 'Roboto', sans-serif; color: white; font-size: 66px;">Computational ecology <span style="color: aliceblue; font-size: 16px; font-style: italic;">Research Group</span></span>
+        
+      
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        <br>
+        <br>
+        <br>
+        <br>
+        <p><span style="font-family: 'Roboto', Times, serif; color: white; font-size: 19px;">Plant ecology, Computational biology, Metabolomic, conservation, ORD...</span></p>
+
+    image:
+      filename: #logo.jpg
+
+    design:
+        columns: '1'
+        background:
+          image: 
+           filename: entete_group4.jpg
+           filters:
+             brightness: 1
+          parallax: false
+          position: center
+          size: cover
+
+
+
   - block: collection
     content:
-      title: Latest News
+      title: |
+       <span style="font-family: 'Montserrat', sans-serif; color:white; font-size: 30px;">Latest News<br></span>
+      
       subtitle:
       text:
       count: 5
@@ -35,7 +55,11 @@ sections:
     design:
       view: card
       columns: '1'
-  
+      background:
+        color: black
+
+    
+
   - block: markdown
     content:
       title:
@@ -45,7 +69,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: entete_group4.jpg
           filters:
             brightness: 1
           parallax: false
